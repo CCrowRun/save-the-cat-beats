@@ -10,7 +10,7 @@
 }
 
 .header-text {
-  margin: 0;
+  margin-top: 15px;
   float:left;
   }
 
@@ -43,6 +43,20 @@ h1 {
  text-transform: uppercase;
 }
 
+h2 {
+  font-size: 29px;
+  color: #0099cc;
+  text-align: center;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  color:rgb(102, 102, 102);
+  text-align: center;
+  margin: 5px;
+}
+
 h2, h3, p, ul, li {
   margin: 10px;
   font-family: 'Roboto', sans-serif;
@@ -64,19 +78,21 @@ nav li {
 }
 
 a {
-  text-align: center;
-  font-size: 17px;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #BA6924;
-  border-radius: 5px;
-  padding: 7px;
-  margin: 11px
-  background-color: rgba(0, 153, 204, 0.5);
+}
+
+nav a, .beatLeft a, .beatRight a {
+  text-align: center;
+  font-size: 17px;
 }
 
 nav a {
   background-color: #FFF;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 11px;
 }
 
 a:hover {
@@ -86,11 +102,12 @@ a:hover {
 .beat {
   border: 1px solid rgba(0, 0, 0, .1);
   width: 97%;
-  margin: 8px;
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   min-width: 740px;
-  height: 350px;
+  max-width:1400px;
+  height: 400px;
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,.1)
   }
 
@@ -98,28 +115,56 @@ a:hover {
   float:left;
   width:45%;
   text-align: center;
+  margin-top: 70px;
 }
 
 .contentLeft {
   display: inline-block;
   float: right;
   width: 45%;
+  margin-right: 20px;
 }
 
 .beatRight {
   float:right;
   width:45%;
   text-align: center;
+  margin-top: 70px;
 }
 
 .contentRight {
   display: inline-block;
   float: left;
   width: 45%;
+  margin-left: 20px;
 }
+
+/* .contentLeft a, .contentRight a {
+  text-align: left;
+  display: inline;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #BA6924;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+} */
 
 .clear {
   clear:both;
+}
+
+footer {
+height: 40px;
+}
+
+footer p {
+  float: left;
+}
+
+footer a {
+  float:right;
 }
 
 /* Font families:
