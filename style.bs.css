@@ -2,37 +2,36 @@
 
 }
 
-.header {
+.jumbotron {
   display: block;
-  width: 100%;
+ /* width: 100%;
   min-width: 740px;
   float:left;
 }
 
 .header-text {
   margin-top: 15px;
-  float:left;
+  float:left;*/
   }
 
 .header-image {
     float: right;
   }
 
-.header-text h1 {
- color: #BA6924;
+  .jumbotron h1, h2 {
+ margin-left:10px;
+ float: left;
+}
+
+.jumbotron h2 {
+  font-size: 2em;
+  text-align: left;
+}
+
+.jumbotron h1 {
  font-size: 125px;
  margin-top: 30px;
  margin-left:10px;
-}
-
-.header-text h2 {
-  font-size: 2em;
-  font-family: 'Roboto', sans-serif;
-  margin-left:10px;
-  color: #0099cc;
-  /*text-transform: uppercase;*/
-  text-align: center;
-  margin: 5px;
 }
 
 h1 {
@@ -44,6 +43,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 29px;
   color: #0099cc;
   text-align: center;
@@ -63,29 +63,16 @@ h2, h3, p, ul, li {
 }
 
 nav {
-  display: inline-block;
   background-color: rgba(0, 153, 204, 0.5);
-  width: 100%;
-  min-width: 740px;
+/*  min-width: 740px; */
   border-style: solid;
-  border-width: 5px 0px;
+  border-width: 3px 0px;
 }
 
 nav li {
   display: inline-block;
   margin: 11px;
   text-align: center
-}
-
-a {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  color: #BA6924;
-}
-
-nav a, .beatLeft a, .beatRight a {
-  text-align: center;
-  font-size: 17px;
 }
 
 nav a {
@@ -95,10 +82,21 @@ nav a {
   margin: 11px;
 }
 
+nav a, .beatLeft a, .beatRight a {
+  text-align: center;
+  font-size: 17px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #BA6924;
+}
+
 a:hover {
  color: #BA6924;
 }
-
+/*
 .beat {
   border: 1px solid rgba(0, 0, 0, .1);
   width: 97%;
@@ -139,18 +137,6 @@ a:hover {
   margin-left: 20px;
 }
 
-/* .contentLeft a, .contentRight a {
-  text-align: left;
-  display: inline;
-  font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  color: #BA6924;
-  border-radius: 0px;
-  padding: 0px;
-  margin: 0px;
-} */
-
 .clear {
   clear:both;
 }
@@ -165,7 +151,7 @@ footer p {
 
 footer a {
   float:right;
-}
+}*/
 
 /* Font families:
 font-family: 'Roboto', sans-serif;

@@ -123,6 +123,7 @@ a:hover {
   float: right;
   width: 45%;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .beatRight {
@@ -137,6 +138,7 @@ a:hover {
   float: left;
   width: 45%;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 /* .contentLeft a, .contentRight a {
